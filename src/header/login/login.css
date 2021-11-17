@@ -1,0 +1,92 @@
+@import '../../colors.css';
+
+.loginBackground{
+    width: 100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    z-index:10; 
+}
+
+.loginWrapper {
+    width: 100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#fff;
+    height: 100vh;
+    z-index:999
+}
+
+.loginBox {
+    position: absolute;
+    background-color:var(--backgroundLight);
+    padding:50px 20px;
+    box-sizing: border-box;
+    border-radius:20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min-content;
+}
+
+.loginLogo {
+    height: 200px;
+}
+
+.loginRegisterInput {
+    box-sizing: border-box;
+    height: 50px;
+    padding:  0px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size:var(--mediumFontSize);
+    border-right: none;
+    border:none;
+    border: 2px solid var(--background3); 
+    border-radius:13px;
+    letter-spacing: 0.5px;
+    color: var(--textOnBackground);
+    width: 250px;
+    margin-top:20px;
+    background-color: var(--background);
+}
+
+.loginRegisterInput:focus {
+    text-align: left;
+    box-shadow: #c5c5c5 -1px 0px 1px 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+.uniqueLoginInput {
+    float: none;
+}
+
+.uniquePasswordInput {
+    float: none;
+}
+
+.loginRegisterButton{
+    height:35px;
+}
+.registerHeader{
+    margin: 0 auto;
+    width:fit-content;
+    font-size:var(--bigFontSize);
+    font-weight:700;
+    margin-bottom:20px;
+    color:var(--textOnBackground);
+}
+/* .loginButton{
+    margin-top: 35px;
+    float:right;
+
+} */
+.flexSpace{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}

@@ -1,0 +1,85 @@
+.listBox {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.listHeader {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.listsortBy {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--backgroundLight);
+    list-style-type: none;
+    border-radius: 30px;
+    padding: 4px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.listsortBy li {
+    transition: all 100ms;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    height: 100%;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: var(--normalFontSize);
+    color: rgb(37, 37, 37);
+    z-index: 1;
+    color:var(--textOnBackground);
+    cursor:pointer;
+    
+}
+
+.sortByBackground {
+    background-color: var(--darkBlue);
+    position: absolute;
+    transition: all 100ms;
+    height: 32px;
+    border-radius: 30px;
+}
+
+.test {
+    min-height: 100vh;
+
+}
+.widthFitContent{
+    width:fit-content;
+    float:left;
+}
+
+.listHeaderText{
+    float:right;
+    width:max-content;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.listCloseCategory{
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    float:left;
+    cursor:pointer;
+}
+.listHeaderTextBox{
+    margin-right:10px;
+    float:left;
+    font-size:var(--defaultFontSize);
+}

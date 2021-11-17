@@ -1,0 +1,21 @@
+:root {
+    --lightGray: #1f1f1f;
+    --darkBlue: #990000;
+    --lightBlue: rgb(71, 0, 0);
+    --darkGray: rgb(49, 49, 49);
+    --coloredText:#4a6394;
+    --background:rgb(44, 44, 44);
+    --backgroundLight:rgb(59, 59, 59);
+    --background3:rgb(80, 80, 80);
+    --navy:#122C66;
+    --textOnBackground:rgb(241, 241, 241);
+    --textOnContrast:rgb(19, 19, 19);
+
+    /*other variables: */
+
+    --defaultFontSize:16px;
+    --normalFontSize:18px;
+    --mediumFontSize:20px;
+    --bigFontSize:40px;
+
+}

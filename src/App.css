@@ -1,0 +1,72 @@
+@import './colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  color:var(--textOnBackground);
+}
+.toSelect {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.buttonFill {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  padding: 0 15px 0 15px;
+  border: 2px solid var(--darkBlue);
+  border-radius: 8px;
+  background-color: var(--darkBlue);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 100ms;
+  font-size:var(--defaultFontSize);
+}
+
+.buttonFill:hover {
+  background-color: var(--lightBlue);
+  border: 2px solid var(--lightBlue);
+  /* color: #fff; */
+}
+
+.buttonBlank {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  padding: 0 15px 0 15px;
+  border: 2px solid var(--backgroundLight);
+  border-radius: 8px;
+  background-color: var(--backgroundLight);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 100ms;
+  font-size:var(--defaultFontSize);
+
+}
+
+.buttonBlank:hover {
+  background-color: var(--lightBlue);
+  border: 2px solid var(--lightBlue);
+  /* color: #fff; */
+}

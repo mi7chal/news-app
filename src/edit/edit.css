@@ -1,0 +1,56 @@
+.editBody {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+
+.editContent {
+    margin-top:10px;
+    display: block;
+    overflow: hidden;
+    resize: vertical;
+    width: 100%;
+    min-height: 100px;
+    overflow-y: scroll;
+    font-size:var(--normalFontSize);
+    border:none;
+
+}
+.editTitle {
+    margin: 10px 0;
+    display: block;
+    overflow: hidden;
+    resize:vertical;
+    width: 100%;
+    min-height: 40px;
+    font-size:var(--bigFontSize);
+    font-weight: 700;
+    max-height:80px;
+    border:none;
+    border:none;
+
+
+}
+.editTags{
+    overflow: hidden;
+    resize: auto;
+    width:100%;
+    height:20px;
+    min-width: 20px;
+    max-width:1200px;
+    min-height: 10px;
+    max-height:50px;
+    border:none;
+
+
+}
+.editImage{
+    width: auto;
+    padding-top: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -1,0 +1,16 @@
+.searchBoxBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 4px;
+    font-size:var(--defaultFontSize);
+    
+    
+}
+.linkResetStyles{
+    color: var(--textOnBackground);
+    text-decoration: none;
+}
+
+.searchBoxBox:hover {
+   background-color:var(--background);
+}

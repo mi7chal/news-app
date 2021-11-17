@@ -1,0 +1,41 @@
+.homeWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.homeMore {
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-size:var(--defaultFontSize);
+}
+
+.homeMore div{
+    color:var(--textOnBackground);
+    font-weight:600;
+    font-family: 'Montserrat', sans-serif;
+    font-size:var(--normalFontSize);
+}
+
+@media only screen and (max-width: 610px) {
+    .bottomHeaderList {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .homeWrapper {
+        margin: 0 10px;
+    }
+}

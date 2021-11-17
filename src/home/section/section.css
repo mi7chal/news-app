@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@700&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    box-sizing: border-box;
+    padding: 25px 0;
+    width:fit-content;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.articleHeader {
+    font-size:var(--normalFontSize);
+    height: 33px;
+    box-sizing: border-box;
+
+}
+.sectionLine{
+    width:4%;
+    height:6px;
+    border-bottom:3px solid var(--textOnBackground);
+}
+
+.articleHeader h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing:3px;
+}
+
+.articles {
+    max-width: 100%;
+    width:fit-content;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: grid;
+    grid-auto-flow: column;
+     grid-template-columns:  185px 185px 185px 185px 185px 185px ;
+    grid-template-rows: 185px 185px; 
+    grid-gap:18px;
+    grid-template-areas:"header main main main main " "header main main main main "; /*
+    grid-template-areas: "header main main " "header main main " "main main main" "main main main";*/
+    overflow:hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .articles {
+        grid-template-columns: repeat(4, minmax(185px, 1fr));
+        grid-template-rows:  repeat(3, minmax(185px, 1fr)); 
+        grid-template-areas: "header main main " "header main main " "main main main" "main main main";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .articles {
+        grid-template-columns: repeat(2, minmax(185px, 1fr));
+        grid-template-rows:  repeat(4, minmax(185px, 1fr)); 
+        grid-template-areas: "header main ""header main " "header main " "header main ";
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .articles {
+        margin: 0 auto;
+        width:fit-content;
+        grid-template-columns: repeat(1,minmax(185px, 1fr));
+        grid-template-rows:  repeat(6,minmax(185px, 1fr)); 
+        grid-template-areas: "header main ""header main " "header main " "header main ";
+    }
+}

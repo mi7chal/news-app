@@ -1,0 +1,52 @@
+.inputArea {
+  width: 100%;
+  height: fit-content;
+  min-height:250px;
+  border: none;
+  outline: none;
+  /* font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  padding:2px 5px;
+  position: relative;
+
+
+}
+
+ul{
+  padding:5px 20px;
+  margin:0;
+}
+
+.selectMarker{
+  position:absolute;
+  background-color: rgb(0, 0, 0);
+  border-radius:3px;
+  cursor:default;
+  height:20px;
+  padding: 0 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.selectMarker div{
+  cursor:pointer;
+  border-right:2px solid rgb(48, 48, 48);
+  padding:0 3px;
+  font-size:13px;
+  color:#fff;
+  float:left;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+
+}
+.selectMarker div:hover{
+  background-color: rgb(22, 22, 22);
+}
+.selectMarker div:last-child{
+  border:none;
+}

@@ -1,0 +1,41 @@
+.articleInList{
+  
+    width:100%;
+    margin-top:20px;
+    float:none;
+    height:200px;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--backgroundLight);
+    border-radius:15px;
+
+    
+}
+.articleInImage{
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    float:left;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    
+}
+.articleInTextBox{
+    height:200px;
+    float:left;
+    padding:2px 5px;
+    box-sizing: border-box;
+    font-size:var(--defaultFontSize);
+}
+.articleInTitle{
+    font-weight:700;
+    font-size:var(--mediumFontSize);
+
+}
+.articleInLink{
+    text-decoration: none;
+    color:#000;
+}

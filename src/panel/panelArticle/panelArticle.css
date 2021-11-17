@@ -1,0 +1,80 @@
+.panelArticleTr {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.panelArticleTr td {
+  padding: 1px 5px;
+  box-sizing: border-box;
+  /* border:2px solid black; */
+  overflow: hidden;
+  /* border:1px solid rgb(228, 228, 228); */
+  /* border-left:1px solid var(--lightGray); */
+}
+
+.panelTableBody tr td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.panelTableBody tr td:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.paneldeleteToAnimation {
+  position: absolute;
+  height: 100%;
+  left: 100%;
+  width: 0%;
+  overflow: hidden;
+  top: 0;
+  background-color: rgba(224, 224, 224, 0.952);
+  transition: all 100ms;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.paneldeleteToAnimationBox {
+  width: fit-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  height: fit-content;
+
+}
+.paneldeleteToAnimation div{
+    color:rgb(102, 102, 102);
+}
+.paneldeleteToAnimationBox :nth-child(n) {
+  margin: 0 2px;
+  float: left;
+}
+.paneldeleteToAnimationBox :nth-child(2) {
+  background-color: #20c44c;
+  border-radius: 5px;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+.paneldeleteToAnimationBox :nth-child(3) {
+  background-color: rgb(255, 65, 65);
+  border-radius: 5px;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+
+.panelLinkTd {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.panelArticleTitle {
+  font-weight: 700;
+}

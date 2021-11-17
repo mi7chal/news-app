@@ -1,0 +1,100 @@
+.articleViewImage {
+  width: auto;
+  padding-top: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid var(--backgroundLight);
+}
+
+.articleViewBox {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 5px 10px 20px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.articleViewTitle {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: var(--backgroundLight);
+  width: fit-content;
+  max-width: calc(100% - 300px);
+  padding: 10px;
+  font-family: "Montserrat", sans-serif !important;
+  font-size:var(--bigFontSize);
+}
+
+.articleViewContent {
+  white-space: pre-line;
+  font-size: var(--normalFontSize);
+}
+
+.articleViewTag {
+  background-color: var(--background);
+  border: 2px solid var(--backgroundLight);
+  width: fit-content;
+  color: var(--textOnBackground);
+  float: left;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-radius: 2px;
+  font-size:var(--defaultFontSize);
+}
+
+.articleViewTagBox {
+  margin-top: 8px;
+  font-weight: 700;
+  width: 100%;
+  overflow: hidden;
+  list-style-type: none;
+  
+}
+
+.articleViewTagText {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size:var(--defaultFontSize);
+
+
+}
+.articleViewCategoryText {
+  font-weight: 600;
+  float: left;
+  position: relative;
+  top: 50%;
+  font-size:var(--defaultFontSize);
+
+  /* transform: translateY(-50%); */
+}
+
+.articleViewCategory {
+  border: 2px solid var(--backgroundLight);
+  width: fit-content;
+  color: var(--textOnBackground);
+  float: right;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-weight: 560;
+  font-family: "Montserrat", sans-serif !important;
+  margin-left: 5px;
+  font-size:var(--defaultFontSize);
+
+}
+.articleViewAutor {
+  float: right;
+  border: 2px solid var(--backgroundLight);
+  width: fit-content;
+  color: var(--textOnBackground);
+  padding: 6px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif !important;
+  font-size:var(--defaultFontSize);
+
+}
